@@ -1,0 +1,113 @@
+body {  
+ background-color:rgb(244, 255, 248);
+ color: rgb(35, 37, 40);
+ transition: 1s;
+}
+
+.darkmode {
+ background-color: rgb(35, 37, 40);
+ color: rgb(244, 255, 248);
+ transition: 1s;
+}
+
+h1 {    
+    text-align: center;
+    font-family: "HelveticaNeue-CondensedBold";
+    font-size: 55px ;
+    background-color: rgb(223, 146, 142);    
+}
+
+#State {
+    font-family:"HelveticaNeue-CondensedBold" ;
+    font-size: 22px;
+    position:absolute;
+    top: 130px;
+}
+
+#City {
+    font-family:"HelveticaNeue-CondensedBold" ;
+    font-size: 22px;
+    position:absolute;
+    top: 195px;
+}
+
+#County {
+    font-family:"HelveticaNeue-CondensedBold" ;
+    font-size: 22px;
+    position:absolute;
+    top: 260px;
+}
+
+#textBox1 {
+    height: 35px;
+    width: 120px;
+    position: absolute;
+    top: 145px;
+    left: 80px;
+    font-family:"HelveticaNeue-CondensedBold";
+    font-size: 20px;
+    border-color: rgb(35, 37, 40);
+}
+
+#textBox2 {
+    height: 35px;
+    width: 120px;
+    position: absolute;
+    top: 210px;
+    left: 80px;
+    font-family:"HelveticaNeue-CondensedBold";
+    font-size: 20px;
+    border-color: rgb(35, 37, 40);
+}
+
+#textBox3 {
+    height: 35px;
+    width: 120px;
+    position: absolute;
+    top: 275px;
+    left: 80px;
+    font-family:"HelveticaNeue-CondensedBold";
+    font-size: 20px;
+    border-color: rgb(35, 37, 40);
+}
+
+input::placeholder {
+    color: rgb(143, 143, 143);
+}
+
+#moon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 40px;
+    top: 50px; 
+    transition: 0.5s;
+}
+
+#moon:hover {
+    height: 45px;
+    width: 45px;
+    transition: 0.8s;
+}
+
+#credit{
+    background-color: rgb(223,146,142);  
+    position: absolute;
+    height: 65px;
+    width: 110px;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 12px;
+    border-color: transparent;
+    cursor: pointer;
+    font-family: "HelveticaNeue-CondensedBold";
+    font-size: 35px;
+    transition: 1s; 
+}
+
+#btn:hover {
+    height: 75px;
+    width: 120px;
+    transition: 0.8s;
+}
+
