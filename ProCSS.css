@@ -13,8 +13,17 @@ body {
 h1 {    
     text-align: center;
     font-family: "HelveticaNeue-CondensedBold";
-    font-size: 55px ;
+    font-size: 55px;
+    top: 0px;
     background-color: rgb(223, 146, 142);    
+}
+
+#Hype {
+    position: absolute;
+    top: 80px;
+    left: 117px;
+    font-family: "HelveticaNeue-CondensedBold";
+    font-size: 18px;
 }
 
 #State {
@@ -24,14 +33,14 @@ h1 {
     top: 130px;
 }
 
-#City {
+#Country {
     font-family:"HelveticaNeue-CondensedBold" ;
     font-size: 22px;
     position:absolute;
     top: 195px;
 }
 
-#County {
+#City {
     font-family:"HelveticaNeue-CondensedBold" ;
     font-size: 22px;
     position:absolute;
@@ -43,7 +52,7 @@ h1 {
     width: 120px;
     position: absolute;
     top: 145px;
-    left: 80px;
+    left: 85px;
     font-family:"HelveticaNeue-CondensedBold";
     font-size: 20px;
     border-color: rgb(35, 37, 40);
@@ -54,7 +63,7 @@ h1 {
     width: 120px;
     position: absolute;
     top: 210px;
-    left: 80px;
+    left: 85px;
     font-family:"HelveticaNeue-CondensedBold";
     font-size: 20px;
     border-color: rgb(35, 37, 40);
@@ -65,7 +74,7 @@ h1 {
     width: 120px;
     position: absolute;
     top: 275px;
-    left: 80px;
+    left: 85px;
     font-family:"HelveticaNeue-CondensedBold";
     font-size: 20px;
     border-color: rgb(35, 37, 40);
@@ -90,7 +99,7 @@ input::placeholder {
     transition: 0.8s;
 }
 
-#credit{
+#credit {
     background-color: rgb(223,146,142);  
     position: absolute;
     height: 65px;
@@ -105,9 +114,52 @@ input::placeholder {
     transition: 1s; 
 }
 
-#btn:hover {
+#credit:hover {
     height: 75px;
     width: 120px;
     transition: 0.8s;
 }
 
+#subBtn {
+    background-color: rgb(223,146,142);  
+    position: absolute;
+    height: 65px;
+    width: 110px;
+    top: 340px; 
+    border-radius: 12px;
+    border-color: transparent;
+    cursor: pointer;
+    font-family: "HelveticaNeue-CondensedBold";
+    transition: 1s;
+    font-size: 25px;
+    transition: 1s; 
+    text-align: center;
+}
+
+#subBtn:hover {
+    height: 75px;
+    width: 120px;
+    transition: 0.8s;
+}
+
+#convert {
+    background-color: rgb(223,146,142);  
+    position: absolute;
+    height: 65px;
+    width: 110px;
+    top: 450px; 
+    border-radius: 12px;
+    border-color: transparent;
+    cursor: pointer;
+    font-family: "HelveticaNeue-CondensedBold";
+    transition: 1s;
+    font-size: 23px;
+    transition: 1s; 
+    text-align: center;
+}
+
+#convert:hover {
+    height: 75px;
+    width: 120px;
+    transition: 0.8s;
+}
