@@ -42,9 +42,9 @@ h1 {
 
 #City {
     font-family:"HelveticaNeue-CondensedBold" ;
-    font-size: 22px;
+    font-size: 38px;
     position:absolute;
-    top: 260px;
+    top: 163px;
 }
 
 #textBox1 {
@@ -73,7 +73,7 @@ h1 {
     height: 35px;
     width: 120px;
     position: absolute;
-    top: 275px;
+    top: 200px;
     left: 85px;
     font-family:"HelveticaNeue-CondensedBold";
     font-size: 20px;
