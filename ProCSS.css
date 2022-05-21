@@ -26,20 +26,6 @@ h1 {
     font-size: 18px;
 }
 
-#State {
-    font-family:"HelveticaNeue-CondensedBold" ;
-    font-size: 22px;
-    position:absolute;
-    top: 130px;
-}
-
-#Country {
-    font-family:"HelveticaNeue-CondensedBold" ;
-    font-size: 22px;
-    position:absolute;
-    top: 195px;
-}
-
 #City {
     font-family:"HelveticaNeue-CondensedBold" ;
     font-size: 38px;
@@ -47,29 +33,7 @@ h1 {
     top: 163px;
 }
 
-#textBox1 {
-    height: 35px;
-    width: 120px;
-    position: absolute;
-    top: 145px;
-    left: 85px;
-    font-family:"HelveticaNeue-CondensedBold";
-    font-size: 20px;
-    border-color: rgb(35, 37, 40);
-}
-
-#textBox2 {
-    height: 35px;
-    width: 120px;
-    position: absolute;
-    top: 210px;
-    left: 85px;
-    font-family:"HelveticaNeue-CondensedBold";
-    font-size: 20px;
-    border-color: rgb(35, 37, 40);
-}
-
-#textBox3 {
+#textBox {
     height: 35px;
     width: 120px;
     position: absolute;
@@ -80,7 +44,7 @@ h1 {
     border-color: rgb(35, 37, 40);
 }
 
-input::placeholder {
+#city::placeholder {
     color: rgb(143, 143, 143);
 }
 
@@ -120,7 +84,7 @@ input::placeholder {
     transition: 0.8s;
 }
 
-#subBtn {
+#weatherBtn {
     background-color: rgb(223,146,142);  
     position: absolute;
     height: 65px;
@@ -130,13 +94,13 @@ input::placeholder {
     border-color: transparent;
     cursor: pointer;
     font-family: "HelveticaNeue-CondensedBold";
-    transition: 1s;
     font-size: 25px;
-    transition: 1s; 
     text-align: center;
+    transition: 1s;
+
 }
 
-#subBtn:hover {
+#weatherBtn:hover {
     height: 75px;
     width: 120px;
     transition: 0.8s;
@@ -152,14 +116,29 @@ input::placeholder {
     border-color: transparent;
     cursor: pointer;
     font-family: "HelveticaNeue-CondensedBold";
-    transition: 1s;
     font-size: 23px;
-    transition: 1s; 
     text-align: center;
+    transition: 1s;
 }
 
 #convert:hover {
     height: 75px;
     width: 120px;
     transition: 0.8s;
+}
+
+#weatherOutput {
+    background-color: rgb(223,146,142);  
+    position: absolute;
+    height: 65px;
+    width: 110px;
+    top: 235px; 
+    right:1000px;
+    border-radius: 12px;
+    border-color: transparent;
+    cursor: pointer;
+    font-family: "HelveticaNeue-CondensedBold";
+    font-size: 25px;
+    text-align: center;
+    transition: 1s;    
 }
