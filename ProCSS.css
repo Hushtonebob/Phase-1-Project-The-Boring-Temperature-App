@@ -69,11 +69,11 @@ h1 {
     height: 65px;
     width: 110px;
     bottom: 10px;
-    left: 10px;
     border-radius: 12px;
     border-color: transparent;
     cursor: pointer;
     font-family: "HelveticaNeue-CondensedBold";
+    text-align: center;
     font-size: 35px;
     transition: 1s; 
 }
@@ -94,8 +94,8 @@ h1 {
     border-color: transparent;
     cursor: pointer;
     font-family: "HelveticaNeue-CondensedBold";
-    font-size: 25px;
     text-align: center;
+    font-size: 25px;
     transition: 1s;
 
 }
@@ -116,8 +116,8 @@ h1 {
     border-color: transparent;
     cursor: pointer;
     font-family: "HelveticaNeue-CondensedBold";
-    font-size: 23px;
     text-align: center;
+    font-size: 23px;
     transition: 1s;
 }
 
@@ -137,7 +137,7 @@ h1 {
     border-radius: 12px;
     border-color: transparent;
     font-family: "HelveticaNeue-CondensedBold";
-    font-size: 25px;
+    font-size: 50px;
     text-align: center;
     transition: 1s;    
 }
@@ -153,7 +153,7 @@ h1 {
     border-radius: 12px;
     border-color: transparent;
     font-family: "HelveticaNeue-CondensedBold";
-    font-size: 25px;
+    font-size: 50px;
     text-align: center;
     transition: 1s;  
 }
