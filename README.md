@@ -4,6 +4,8 @@ The Boring Temperature App is used to get the temperature for most cities in the
 
 In addition to getting the current temperature in fahrenheit, as well as the daily highs and lows, The Boring Temperature App can be used to also get the temperature data returned to you in celsius!
 
+# Video Link!
+https://youtu.be/j16K63w9qVg
 
 # Credit
 
