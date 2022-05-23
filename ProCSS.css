@@ -157,3 +157,18 @@ h1 {
     text-align: center;
     transition: 1s;  
 }
+
+#highLow {
+    background-color: rgb(223,146,142);  
+    position: absolute;
+    height: 65px;
+    width: 210px;
+    top: 150px; 
+    right: 100px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-family: "HelveticaNeue-CondensedBold";
+    font-size: 17px;
+    text-align: center;
+    transition: 1s;  
+}
