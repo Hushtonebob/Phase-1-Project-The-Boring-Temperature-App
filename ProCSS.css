@@ -106,7 +106,7 @@ h1 {
     transition: 0.8s;
 }
 
-#convert {
+#celBtn {
     background-color: rgb(223,146,142);  
     position: absolute;
     height: 150px;
@@ -121,7 +121,7 @@ h1 {
     transition: 1s;
 }
 
-#convert:hover {
+#celBtn:hover {
     height: 160px;
     width: 160px;
     transition: 0.8s;
@@ -139,7 +139,6 @@ h1 {
     font-family: "HelveticaNeue-CondensedBold";
     font-size: 50px;
     text-align: center;
-    transition: 1s;    
     margin: auto;
 }
 
@@ -156,7 +155,6 @@ h1 {
     font-family: "HelveticaNeue-CondensedBold";
     font-size: 50px;
     text-align: center;
-    transition: 1s;  
     margin: auto;
     ;
 
@@ -174,7 +172,6 @@ h1 {
     font-family: "HelveticaNeue-CondensedBold";
     font-size: 20px;
     text-align: center;
-    transition: 1s;
     margin: auto;
     margin-top: auto;  
 }
