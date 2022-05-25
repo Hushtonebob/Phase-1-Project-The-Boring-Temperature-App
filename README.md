@@ -12,3 +12,4 @@ https://youtu.be/j16K63w9qVg
 The Boring Temperature App designed and created by Bobby De Luna for Final Project for Phase 1 in the Software Engineering program from Flatiron School. 
 
 The Boring Temperature App uses the OpenWeatherMap.org API. 
+
