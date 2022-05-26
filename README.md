@@ -8,6 +8,7 @@ In addition to getting the current temperature in fahrenheit, as well as the dai
 
 Check out dark mode!
 
+![](night-mode.gif)
 
 
 # Usage and access
