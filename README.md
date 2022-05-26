@@ -23,6 +23,8 @@ Check out dark mode!
 
 The Boring Temperature app can be used by simply forking and copy the files into your directory from github and then by opening the ProBlam.html in your browser. 
 
+Feel free to contact me with any further questions concerning The Boring Temperature App                @Bobby.deluna2@gmail.com
+
 # Credit
 
 The Boring Temperature App designed and created by Bobby De Luna for Final Project for Phase 1 in the Software Engineering program from Flatiron School. 
