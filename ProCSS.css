@@ -106,27 +106,6 @@ h1 {
     transition: 0.8s;
 }
 
-#celBtn {
-    background-color: rgb(223,146,142);  
-    position: absolute;
-    height: 150px;
-    width: 150px;
-    top: 425px; 
-    border-radius: 12px;
-    border-color: transparent;
-    cursor: pointer;
-    font-family: "HelveticaNeue-CondensedBold";
-    text-align: center;
-    font-size: 20px;
-    transition: 1s;
-}
-
-#celBtn:hover {
-    height: 160px;
-    width: 160px;
-    transition: 0.8s;
-}
-
 #weatherOutput {
     background-color: rgb(223,146,142);  
     position: absolute;
