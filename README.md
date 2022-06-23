@@ -8,15 +8,15 @@ In addition to getting the current temperature in fahrenheit, as well as the dai
 
 Get the current weather from the Open Wheater Map API!
 
-![](temp.gif)
+![](gifs/temp.gif)
 
 As well as that same weather in celsius!
 
-![](cel-mode.gif)
+![](gifs/cel-mode.gif)
 
 Check out dark mode!
 
-![](night-mode.gif)
+![](gifs/night-mode.gif)
 
 # Video Link!
 
